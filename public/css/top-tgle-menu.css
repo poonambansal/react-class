@@ -1,0 +1,9 @@
+* { padding: 0; margin: 0;}
+.select-outer {position:relative; z-index:2;}
+.select-sec{cursor:pointer;}
+.select-sec span{ float:left; padding-right:10px;}
+ul.select-drop{ padding:0; margin:0; position:absolute; top:58px; z-index:2; display:none; background:#8bc53f; padding:10px 10px 5px 10px; width:200px;}
+ul.select-drop li{ list-style:none; padding:10px 0; border-bottom:solid 1px #f9f9f9;}
+ul.select-drop li:last-child{border-bottom:none;}
+ul.select-drop li a{color:#ffffff; display:block;}
+ul.select-drop li a:hover{color:#616161;}

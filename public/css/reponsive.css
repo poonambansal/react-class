@@ -1,0 +1,127 @@
+@media screen and (max-width:1400px){
+.text-over-img-color{width:50%;}
+.mic_links img{width:50px;}
+.mic_links .f18{font-size: 17px;}
+.login{padding-left:20px;}
+.sign-up .right{padding-left:20px;}
+.sign-up .left{padding-right:20px;}
+}
+
+@media screen and (max-width:1200px){
+ul.top_nav li a{padding: 10px 10px 10px 0;}
+.text-over-img-color{width:60%;}
+.menu-tag a{margin-right:0px;}
+.mic_links img{float:left;}
+.mic_links span{display:block; padding-top:10px;}
+.total_p p{font-size:30px;}
+.total_p p span{font-size: 33px;}
+
+ul.top_nav{text-align:right;}
+
+ul.top_nav li a.graphic, ul.top_nav li a.graphic:hover, ul.top_nav li.active a.graphic, ul.top_nav li a.graphic:focus, 
+ul.top_nav li a.print, ul.top_nav li a.print:hover, ul.top_nav li.active a.print, ul.top_nav li a.print:focus,
+ul.top_nav li a.signs, ul.top_nav li a.signs:hover, ul.top_nav li.active a.signs, ul.top_nav li a.signs:focus,
+ul.top_nav li a.apparel, ul.top_nav li a.apparel:hover, ul.top_nav li.active a.apparel, ul.top_nav li a.apparel:focus,
+ul.top_nav li a.website, ul.top_nav li a.website:hover, ul.top_nav li.active a.website, ul.top_nav li a.website:focus,
+ul.top_nav li a.direct-mail, ul.top_nav li a.direct-mail:hover, ul.top_nav li.active a.direct-mail, ul.top_nav li a.direct-mail:focus,
+ul.top_nav li a.promotional, ul.top_nav li a.promotional:hover, ul.top_nav li.active a.promotional, ul.top_nav li a.promotional:focus
+{background-size:25px; padding-left:33px !important;}
+
+.mic_links img{width:40px;}
+.mic_links .f18{font-size: 16px;}
+.login{padding-left:0;}
+.sign-up .right{padding-left:0;}
+.sign-up .left{padding-right:0;}
+}
+
+@media screen and (max-width:980px){
+a.graphic, a.graphic:hover, a.print, a.print:hover, a.signs, a.signs:hover, a.apparel, a.apparel:hover, a.website, a.website:hover, a.direct-mail, a.direct-mail:hover, a.promotional, a.promotional:hover{background-size:20px; padding-left:25px !important;}
+ul.top_nav li{font-size: 15px;}
+ul.top_nav li a{padding-right:0;}
+.container-fluid{padding:0;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{margin-top:0;}
+.text-over-img-color{width:80%;}
+.main-image{height: 430px;}
+.middle-containt{padding-top: 17px;}
+.category-toggle{display:block;}
+.product-left{display: none;}
+
+ul.top_nav li a.graphic, ul.top_nav li a.graphic:hover, ul.top_nav li.active a.graphic, ul.top_nav li a.graphic:focus, 
+ul.top_nav li a.print, ul.top_nav li a.print:hover, ul.top_nav li.active a.print, ul.top_nav li a.print:focus,
+ul.top_nav li a.signs, ul.top_nav li a.signs:hover, ul.top_nav li.active a.signs, ul.top_nav li a.signs:focus,
+ul.top_nav li a.apparel, ul.top_nav li a.apparel:hover, ul.top_nav li.active a.apparel, ul.top_nav li a.apparel:focus,
+ul.top_nav li a.website, ul.top_nav li a.website:hover, ul.top_nav li.active a.website, ul.top_nav li a.website:focus,
+ul.top_nav li a.direct-mail, ul.top_nav li a.direct-mail:hover, ul.top_nav li.active a.direct-mail, ul.top_nav li a.direct-mail:focus,
+ul.top_nav li a.promotional, ul.top_nav li a.promotional:hover, ul.top_nav li.active a.promotional, ul.top_nav li a.promotional:focus
+{background-size:20px; padding-left:27px !important;}
+
+
+}
+
+@media screen and (max-width:767px){
+
+ul.top_nav li{width:100%; border-bottom:solid 1px #616161; position:relative;}
+ul.top_nav li:last-child{border-bottom:none;}
+.logo{width:100%; text-align:center; padding-bottom:15px;}
+.right_side{text-align:center;}
+.right_side .floatRight{float:none;}
+.mic_links img{float:none;}
+.mic_links span{display:inline; padding-top:0;}
+
+.search-bar{width:100%; z-index:3;}
+.logo{width:24%;}
+.respo{display:block; padding-top: 26px;}
+.desktop{display:none;}
+.respo .button{padding: 10px 12px;}
+.main-image{height:auto;}
+.text-over-img-color{position:relative; top:inherit; right:inherit; width:100%;}
+.text-over-img-color .top-center{top:inherit;transform:none;}
+.image-box{width:100%;}
+.black-box{width:100%; padding:20px;}
+.text-over-img-color h2{font-size: 26px;}
+.text-over-img-color .button1{float:none; margin-top:20px; display:inline-block;}
+.payment-cards ul li{margin-bottom:10px;}
+ul.top_nav li{font-size: 16px;}
+ul.top_nav li a{padding-right:25px;}
+a.graphic, a.graphic:hover, a.print, a.print:hover, a.signs, a.signs:hover, a.apparel, a.apparel:hover, a.website, a.website:hover, a.direct-mail, a.direct-mail:hover, a.promotional, a.promotional:hover{background-size:auto; padding-left:50px !important;}
+.container-fluid{padding:0 15px;}
+.product-header{display:none;}
+.mic_links .col-md-4{margin-bottom:10px;}
+.total_p p{margin-top:0;}
+ul.top_nav{text-align:left;}
+ul.top_nav li a{padding:5px 10px !important; height:45px; margin-bottom:10px; line-height:35px;}
+.your-account .col-md-3{margin-bottom:30px;}
+
+.signin{padding:0; padding-bottom:20px;}
+.user-login-details{top:27px;}
+ul.lable1{padding-left:0;}
+.megamenu .item-menu ul.lable2, .megamenu .item-menu ul.lable3{padding-left:10px; padding-top:0;}
+.dropdown-menu{overflow:hidden;}
+}
+
+@media screen and (max-width:640px){
+ul.header-menu{margin-top: 0;}
+.search{margin-top: -8px;}
+.products-listing .col-4{width:50%;}
+.heading h2{font-size:32px;}
+.mic_links img{width:30px;}
+.login{margin-top:50px;}
+.sign-up .pull-right{float:left !important;}
+.agree-pp .check_box{width:60%;}
+
+form.forgot-pass{width:100%;}
+.forgot-pass label{width:100%; position:relative; left:inherit; top:inherit;}
+.forgot-pass .input-width{padding-left:0;}
+}
+
+@media screen and (max-width:480px){
+ul.header-menu li a{padding: 10px 4px;}
+ul.header-menu li{margin-bottom:5px;}
+ul.header-menu{margin-top:0;}
+.search{width:100%; margin-top:10px;}
+.products-listing .col-4{width:100%;}
+h2{font-size:20px;}
+.heading h2{font-size: 22px;}
+.agree-pp .check_box{width:100%;}
+.logo {width:35%;}
+}

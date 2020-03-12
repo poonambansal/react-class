@@ -10,6 +10,10 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="%PUBLIC_URL%/css/bootstrap.css" rel="stylesheet" />
+<link rel="stylesheet" href="%PUBLIC_URL%/css/font-awesome.css" />
+<link href="%PUBLIC_URL%/css/main.css" rel="stylesheet" />
+<link href="%PUBLIC_URL%/css/reponsive.css" rel="stylesheet" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -40,4 +44,61 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+  <script type="text/javascript" src="%PUBLIC_URL%/js/jquery.min.js"></script>
+<script type="text/javascript" src="%PUBLIC_URL%/js/owl.carousel.js"></script>
+<script type="text/javascript" src="%PUBLIC_URL%/js/bootstrap.js"></script>
+
+<script type="text/javascript">//search bar
+  $(function() {
+    $('#ancMenuButton').click(function() {
+      $('#divMenu').slideToggle();
+    });
+  })
+</script>
+
+<script type="text/javascript">//responsive toggle left menu
+  $(document).ready(function() {
+    $(".select-sec").click(function() {
+      $(".select-drop").slideToggle("slow");
+    });
+  });
+</script>
+
+<script type="text/javascript">//product page - toogle left menu
+$(document).ready(function(){
+  $('.category-toggle').click(function(){
+    $('.product-left').slideToggle();
+  });
+});
+</script>
+
+
+<script>//slider product detial page
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+  autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+</script>
+
+<script>//social icons - product detial page
+    $('.socialbtn').click(function(){ 
+          $('#more_social').toggleClass('hidden1')
+          // do more stuff.
+    })
+</script>
 </html>
